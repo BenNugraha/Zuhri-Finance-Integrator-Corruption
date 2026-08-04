@@ -1,0 +1,41 @@
+Folder PATH listing for volume BENSCRIPT
+Volume serial number is 6C8E-6C33
+G:.
+|   .dockerignore
+|   docker-compose.yml
+|   Dockerfile
+|   output.txt
+|   pyproject.toml
+|   README.md
+|   requirements.txt
+|   zfic-laporan-pengembangan.md
+|   
++---backend
+|       app.py
+|       ars_scoring.py
+|       audit_alert.py
+|       bubble_detection.py
+|       fii_nsv.py
+|       pipeline_orchestrator.py
+|       precision_core.py
+|       __init__.py
+|       
++---examples
+|       demo_synthetic.py
+|       
++---templates_data
+|       cpi_context_2025.csv
+|       entitas_template.csv
+|       fakta_fitur_template.csv
+|       insiden_template.csv
+|       kpk_national_trend_2004_2025.csv
+|       labeling_rule.md
+|       nsv_negative_indicators_example_k3.csv
+|       README.md
+|       
++---tests
+|       test_core.py
+|       
+\---tools
+        build_training_table.py
+        

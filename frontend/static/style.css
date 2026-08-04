@@ -1,0 +1,96 @@
+/* HEADER — SEJAJAR DENGAN KOLOM CARD BAWAH */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px 24px;
+  /* Padding kiri-kanan diubah menjadi 26px agar presisi sejajar dengan .card */
+  padding: 12px 26px 20px 26px; 
+  border-bottom: 1px solid #2d8b8b44;
+  margin-bottom: 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-img {
+  height: 52px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  display: block;
+}
+
+.title-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #a8dadc 0%, #2d8b8b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-subtitle {
+  font-size: 0.75rem;
+  color: #a8dadc;
+  opacity: 0.7;
+  margin-top: -2px;
+  letter-spacing: 0.3px;
+}
+
+.header-right {
+  flex-shrink: 0;
+}
+
+.tag {
+  background: #2d8b8b33;
+  color: #a8dadc;
+  padding: 4px 16px;
+  border-radius: 40px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid #2d8b8b66;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+/* EFEK MENYALA UNTUK CHIP STATUS ONLINE */
+.chip.glow-online {
+  background: rgba(0, 255, 136, 0.15);
+  color: #00ff88;
+  border: 1px solid #00ff88;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.6), inset 0 0 5px rgba(0, 255, 136, 0.3);
+  text-shadow: 0 0 5px rgba(0, 255, 136, 0.6);
+  animation: pulse-glow 2s infinite alternate;
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 8px rgba(0, 255, 136, 0.3), inset 0 0 4px rgba(0, 255, 136, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 18px rgba(0, 255, 136, 0.9), inset 0 0 8px rgba(0, 255, 136, 0.5);
+  }
+}
+/* Responsif: jika layar sempit, tag turun ke bawah */
+@media (max-width: 600px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .header-right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,20 @@
+rank,country_or_territory,score,category
+1,Denmark,89,least_corrupt
+2,Finland,88,least_corrupt
+3,Singapore,84,least_corrupt
+4,New Zealand,81,least_corrupt
+4,Norway,81,least_corrupt
+6,Sweden,80,least_corrupt
+6,Switzerland,80,least_corrupt
+8,Luxembourg,81,least_corrupt
+9,Netherlands,79,least_corrupt
+10,Australia,77,least_corrupt
+173,Yemen,13,most_corrupt
+173,Libya,13,most_corrupt
+173,Eritrea,13,most_corrupt
+173,Equatorial Guinea,13,most_corrupt
+172,Nicaragua,14,most_corrupt
+170,Sudan,15,most_corrupt
+178,Venezuela,10,most_corrupt
+179,Somalia,9,most_corrupt
+180,South Sudan,8,most_corrupt

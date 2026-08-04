@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZFIC - Koruptor Watchlist</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        table { width:100%; border-collapse: collapse; margin-top: 16px; }
+        th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #2a2a2a; }
+        th { background: #1a1a1a; color: #00ff88; }
+        .code-red { background: #3a0a0a; border-left: 4px solid #ff0044; }
+        .warning { background: #3a2a00; border-left: 4px solid #ffaa00; }
+        .normal { background: #0a1a0a; border-left: 4px solid #00aa44; }
+        .filter-bar { margin-bottom: 16px; }
+        .filter-bar button { margin-right: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚨 Koruptor Watchlist</h1>
+        <p class="subtitle">Entitas dengan FII melewati ambang batas</p>
+
+        <div class="filter-bar">
+            <button class="filter-btn" data-severity="all">Semua</button>
+            <button class="filter-btn" data-severity="CODE_RED_CRITICAL">Kritis</button>
+            <button class="filter-btn" data-severity="CODE_RED">Merah</button>
+            <button class="filter-btn" data-severity="WARNING_ELEVATED">Peringatan</button>
+            <button class="filter-btn" data-severity="NORMAL">Normal</button>
+        </div>
+
+        <div id="watchlist-table">
+            <p>⏳ Memuat data ...</p>
+        </div>
+    </div>
+
+    <script>
+        // Contoh data statis (nanti diambil dari endpoint /audit/entries)
+        const dummyEntries = [
+            { entity: "PT. KORUPSI JAYA", fii: 1.72, severity: "CODE_RED_CRITICAL", hash: "0x7f83b1..." },
+            { entity: "CV. PUNGLI ARSIP", fii: 0.89, severity: "CODE_RED", hash: "0x2a4c9d..." },
+            { entity: "YAYASAN AMAL PALSU", fii: 0.72, severity: "WARNING_ELEVATED", hash: "0x1b2e3f..." },
+        ];
+
+        function renderTable(filter = "all") {
+            const container = document.getElementById('watchlist-table');
+            const filtered = dummyEntries.filter(e => filter === "all" || e.severity === filter);
+            if (filtered.length === 0) {
+                container.innerHTML = '<p style="color:#888;">Tidak ada entitas dengan severity ini.</p>';
+                return;
+            }
+            let html = `<table>
+                <thead><tr><th>Entitas</th><th>FII Score</th><th>Severity</th><th>Audit Hash</th></tr></thead><tbody>`;
+            filtered.forEach(e => {
+                const cls = e.severity.toLowerCase().replace('_', '-');
+                html += `<tr class="${cls}">
+                    <td><strong>${e.entity}</strong></td>
+                    <td>${e.fii.toFixed(4)}</td>
+                    <td>${e.severity}</td>
+                    <td style="font-family:monospace;font-size:0.8em;">${e.hash}</td>
+                </tr>`;
+            });
+            html += `</tbody></table>`;
+            container.innerHTML = html;
+        }
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                renderTable(this.dataset.severity);
+            });
+        });
+
+        // Muat awal
+        renderTable('all');
+    </script>
+</body>
+</html>

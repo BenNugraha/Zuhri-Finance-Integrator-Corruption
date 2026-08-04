@@ -1,0 +1,12 @@
+factor,threshold_value,unit,exposure_window,authority,source_note
+kebisingan,85,dBA,8 jam/hari atau 40 jam/minggu,Permenaker RI,Nilai Ambang Batas (NAB) kebisingan ditetapkan 85 dBA
+kebisingan_stel,88,dBA,4 jam/hari,Permenaker RI,Contoh tabel NAB kebisingan bertingkat per durasi paparan
+panas_iklim_kerja,official_limit_not_extracted,,8 jam/hari,Permenaker / Permenkes,Perlu dokumen spesifik untuk angka final sebelum dipakai compute_nsv
+getaran,official_limit_not_extracted,,8 jam/hari,Permenaker RI,Perlu dokumen spesifik untuk angka final sebelum dipakai compute_nsv
+radiasi_uw,0.0001,mW/cm2,8 jam/hari,Permenaker RI,NAB radiasi sinar ultra ungu ditetapkan 0.0001 mW/cm2
+medan_magnet_statis_seluruh_tubuh,2,T,ceiling,Permenaker RI,Kadar tertinggi diperkenankan untuk seluruh tubuh di tempat kerja umum
+medan_magnet_statis_pekerja_khusus,8,T,ceiling,Permenaker RI,Kadar tertinggi diperkenankan untuk lingkungan kerja terkendali
+medan_magnet_statis_anggota_gerak,20,T,ceiling,Permenaker RI,Kadar tertinggi diperkenankan untuk limbs
+medan_magnet_medis_0_5_mT,0.5,mT,ceiling,Permenaker RI,Khusus pengguna peralatan medis elektronik
+ilo_framework,not_numeric,,8 jam/hari atau 40 jam/minggu,ILO,ILO exposure-limit framework uses competent authority limits and TWA/STEL concepts
+who_framework,not_numeric,,depends_on_guideline,WHO,Use only substance-specific WHO guidance where available

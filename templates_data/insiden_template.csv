@@ -1,0 +1,3 @@
+incident_id,entity_id,tanggal,jenis_insiden,label,severity,sumber,bukti
+INC001,ENT001,2022-03-15,mark_up_pengadaan,1,tinggi,Putusan Pengadilan Tipikor,link_atau_no_putusan
+INC002,ENT002,2023-07-02,tidak_ada_temuan,0,,LHP BPK,link_atau_no_laporan

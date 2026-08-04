@@ -1,0 +1,3 @@
+entity_id,nama_entitas,tipe_entitas,sektor,wilayah,ukuran,periode_observasi
+ENT001,Contoh PT Maju Jaya,perusahaan,konstruksi,DKI Jakarta,menengah,2020-2024
+ENT002,Contoh Dinas Y,instansi_pemerintah,pengadaan_publik,Jawa Barat,besar,2020-2024

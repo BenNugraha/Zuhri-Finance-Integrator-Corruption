@@ -1,0 +1,16 @@
+services:
+  zfic:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - zfic_audit_data:/data
+      # Opsional: mount templates_data lokal Anda supaya bisa diedit
+      # tanpa rebuild image (uncomment kalau perlu):
+      # - ./templates_data:/app/templates_data
+    environment:
+      - ZFIC_AUDIT_LOG_PATH=/data/audit.jsonl
+    restart: unless-stopped
+
+volumes:
+  zfic_audit_data:
