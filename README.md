@@ -37,30 +37,32 @@
 
 ---
 
-## 📁 Struktur Proyek
-zfic/
-├── zfic/ # Package inti
-│ ├── precision_core.py # Konstanta 61-digit
-│ ├── bubble_detection.py # P-Q bubble & regret
-│ ├── ars_scoring.py # Firth logistic regression
-│ ├── fii_nsv.py # NSV & FII optimisasi
-│ ├── audit_alert.py # Hash-chain audit log
-│ └── pipeline_orchestrator.py
-├── frontend/ # UI (static + templates)
-├── templates_data/ # Template CSV & data konteks
-├── tests/ # Unit test
-├── examples/ # Demo sintetis
-├── docs/ # Dokumentasi & gambar
-│ └── ZFIC-screen-page.png
-├── app.py # Flask entry point
-├── setup.py # Instalasi package
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
-
-text
 
 ---
+
+## 📂 PASTIKAN STRUKTUR FOLDER
+
+zfic/
+├── zfic/                     # Package inti
+│   ├── __init__.py
+│   ├── precision_core.py     # Konstanta 61-digit
+│   ├── bubble_detection.py   # P-Q bubble & regret
+│   ├── ars_scoring.py        # Firth logistic regression
+│   ├── fii_nsv.py            # NSV & FII optimisasi
+│   ├── audit_alert.py        # Hash-chain audit log
+│   └── pipeline_orchestrator.py # Eksekusi pipeline
+├── frontend/                 # UI
+│   ├── static/               # CSS, JS, logo
+│   └── templates/            # index.html
+├── templates_data/           # Template CSV & data konteks
+├── tests/                    # Unit test
+├── examples/                 # Demo sintetis
+├── tools/                    # Utility scripts
+├── app.py                    # Flask entry point
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+└── setup.py
 
 ## 🚀 Cara Menjalankan
 
@@ -117,7 +119,5 @@ Dokumen pendukung: zfic-laporan-pengembangan.md, templates_data/README.md, templ
 Issue / Feature request: Silakan buka issue di repository GitHub.
 
 Terakhir diperbarui: 4 Agustus 2026.
-
-text
 
 
