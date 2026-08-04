@@ -105,7 +105,7 @@ Endpoint	Method	Deskripsi
 /audit/verify	GET	Verifikasi integritas audit log
 ```
 ---
-###🧠 Filosofi 61 Digit
+##🧠 Filosofi 61 Digit
 ---
 ```
 61 desimal BUKAN hiasan. Ini adalah jangkar deterministik yang memastikan setiap perhitungan di seluruh sistem menghasilkan angka yang SAMA PERSIS di mana pun dijalankan. Tanpa ini, hasil analisis akan berbeda antar-instansi, antar-waktu, atau antar-pengguna — sistem menjadi tidak dapat diaudit dan tidak dapat dipertanggungjawabkan.
@@ -113,20 +113,17 @@ Endpoint	Method	Deskripsi
 "Presisi tinggi tidak membuat data yang buruk menjadi baik, tapi membuat data yang baik menjadi terpercaya dan dapat diaudit."
 ```
 ---
-📜 Lisensi
+##📜 Lisensi
 MIT License — lihat file LICENSE untuk detail.
+---
 
-👤 Otoritas & Mandat
+##👤 Otoritas & Mandat
 Otoritas ZF Core : Syeikh Muhammad Zuhri
 Arsitek Utama: Benny Nugraha, A.md (Abu Syifa al Bantani)
 
 
 Mandat: URIP IKU KUDU URUP | Basmi Korupsi | Jaga Alam Semesta
 
-📞 Kontak & Referensi
-Dokumen pendukung: zfic-laporan-pengembangan.md, templates_data/README.md, templates_data/labeling_rule.md
-
-Issue / Feature request: Silakan buka issue di repository GitHub.
 
 Terakhir diperbarui: 4 Agustus 2026.
 
