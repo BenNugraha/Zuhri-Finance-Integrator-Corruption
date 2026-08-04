@@ -123,8 +123,9 @@ MIT License — lihat file LICENSE untuk detail.
 👤 Otoritas & Mandat
 ---
 ```
-Otoritas ZF Core : Syeikh Muhammad Zuhri
+Otoritas Mutlak ZF Core : Syeikh Muhammad Zuhri
 Arsitek Utama: Benny Nugraha, A.md (Abu Syifa al Bantani)
+Supported by : Babeh Lutfi Jagur sanFK Jatiwaringin
 ```
 ---
 Mandat: URIP IKU KUDU URUP | Basmi Korupsi | Jaga Alam Semesta
