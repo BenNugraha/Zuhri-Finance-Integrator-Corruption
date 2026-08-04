@@ -19,4 +19,6 @@ env/
 uploads/
 data/
 .pytest_cache/
-.DS_Store
+.DS_Storeoutput.txt
+pipeline.txt
+zfic-laporan-pengembangan.md
