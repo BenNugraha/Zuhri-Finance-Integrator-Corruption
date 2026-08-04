@@ -6,9 +6,13 @@
 
 ---
 
-## 📸 Tampilan Aplikasi
+<details>
+<summary>📸 Klik untuk melihat Tampilan Aplikasi</summary>
 
 ![ZFIC Dashboard](docs/ZFIC-screen-page.png)
+
+*Dashboard utama ZFIC -  menampilkan status sistem, konstanta fundamental, analisis entitas, audit log, dan data konteks.*
+</details>
 
 *Dashboard utama ZFIC dengan tema Ocean Depths — menampilkan status sistem, konstanta fundamental, analisis entitas, audit log, dan data konteks.*
 
