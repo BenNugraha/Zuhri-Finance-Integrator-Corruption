@@ -117,10 +117,11 @@ Endpoint	Method	Deskripsi
 ---
 ```
 MIT License — lihat file LICENSE untuk detail.
----
 
 ```
+---
 👤 Otoritas & Mandat
+---
 ```
 Otoritas ZF Core : Syeikh Muhammad Zuhri
 Arsitek Utama: Benny Nugraha, A.md (Abu Syifa al Bantani)
