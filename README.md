@@ -113,10 +113,13 @@ Endpoint	Method	Deskripsi
 "Presisi tinggi tidak membuat data yang buruk menjadi baik, tapi membuat data yang baik menjadi terpercaya dan dapat diaudit."
 ```
 ---
+```
 ##📜 Lisensi
+```
 MIT License — lihat file LICENSE untuk detail.
+```
 ---
-
+```
 ##👤 Otoritas & Mandat
 Otoritas ZF Core : Syeikh Muhammad Zuhri
 Arsitek Utama: Benny Nugraha, A.md (Abu Syifa al Bantani)
