@@ -14,7 +14,6 @@
 *Dashboard utama ZFIC -  menampilkan status sistem, konstanta fundamental, analisis entitas, audit log, dan data konteks.*
 </details>
 
-*Dashboard utama ZFIC dengan tema Ocean Depths — menampilkan status sistem, konstanta fundamental, analisis entitas, audit log, dan data konteks.*
 
 ---
 
@@ -41,11 +40,9 @@
 
 ---
 
+## 📁 Struktur Proyek
 
----
-
-## 📂 PASTIKAN STRUKTUR FOLDER
-
+```text
 zfic/
 ├── zfic/                     # Package inti
 │   ├── __init__.py
@@ -54,7 +51,7 @@ zfic/
 │   ├── ars_scoring.py        # Firth logistic regression
 │   ├── fii_nsv.py            # NSV & FII optimisasi
 │   ├── audit_alert.py        # Hash-chain audit log
-│   └── pipeline_orchestrator.py # Eksekusi pipeline
+│   └── pipeline_orchestrator.py
 ├── frontend/                 # UI
 │   ├── static/               # CSS, JS, logo
 │   └── templates/            # index.html
@@ -62,11 +59,15 @@ zfic/
 ├── tests/                    # Unit test
 ├── examples/                 # Demo sintetis
 ├── tools/                    # Utility scripts
+├── docs/                     # Dokumentasi & gambar
+│   └── ZFIC-screen-page.png
 ├── app.py                    # Flask entry point
-├── requirements.txt
+├── setup.py                  # Instalasi package
 ├── Dockerfile
 ├── docker-compose.yml
-└── setup.py
+└── README.md
+
+```
 
 ## 🚀 Cara Menjalankan
 
