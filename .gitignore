@@ -22,3 +22,7 @@ data/
 .DS_Storeoutput.txt
 pipeline.txt
 zfic-laporan-pengembangan.md
+# Rahasia
+.env
+*.env
+!*.env.example
