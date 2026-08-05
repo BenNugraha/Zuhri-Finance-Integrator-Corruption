@@ -131,7 +131,13 @@ Supported by : Babeh Lutfi Jagur sanFK Jatiwaringin
 ---
 Mandat: URIP IKU KUDU URUP | Basmi Korupsi | Jaga Alam Semesta
 
+## 📚 Acknowledgments
 
-Terakhir diperbarui: 4 Agustus 2026.
+ZFIC mengadopsi dekomposisi gelembung harga (P-Q bubble) dari paper:
+
+Jarrow, R. A., & Kwok, S. S. (2026). *P-Bubbles, Q-Bubbles, and Risk Premia*. arXiv:2608.01554v1.
+
+Kami berterima kasih kepada para peneliti atas fondasi teoretis yang memungkinkan pengembangan ZFIC sebagai alat anti-korupsi.
+
 
 
