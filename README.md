@@ -1,6 +1,6 @@
 # 🌊 ZFIC — Zuhri Financial Integrity Corruption
 
-**ZFIC** adalah toolkit analitis untuk deteksi anomali harga, skoring risiko entitas (ARS), agregasi indikator sosial-ekonomi (NSV), indeks integritas gabungan (FII), dan audit log tamper-evident. Dibangun dengan phi 61 des untuk menjaga nilai output deterministik
+**ZFIC** adalah toolkit analitis untuk deteksi anomali harga, skoring risiko entitas (ARS), agregasi indikator sosial-ekonomi (NSV), indeks integritas gabungan (FII), dan audit log tamper-evident. Dibangun dengan presisi 61 digit sebagai jangkar deterministik.
 
 > "Memberantas korupsi melalui analisis berbasis bukti, bukan opini."
 
@@ -108,7 +108,7 @@ Endpoint	Method	Deskripsi
 🧠 Filosofi 61 Digit
 ---
 ```
-61 desimal BUKAN hiasan. Ini adalah jangkar deterministik yang memastikan setiap perhitungan di seluruh sistem menghasilkan angka yang SAMA PERSIS di mana pun dijalankan. Tanpa ini, hasil analisis akan berbeda antar-instansi, antar-waktu, atau antar-pengguna — sistem menjadi tidak dapat diaudit dan tidak dapat dipertanggungjawabkan.  
+61 desimal BUKAN hiasan. Ini adalah jangkar deterministik yang memastikan setiap perhitungan di seluruh sistem menghasilkan angka yang SAMA PERSIS di mana pun dijalankan. Tanpa ini, hasil analisis akan berbeda antar-instansi, antar-waktu, atau antar-pengguna — sistem menjadi tidak dapat diaudit dan tidak dapat dipertanggungjawabkan.
 
 "Presisi tinggi tidak membuat data yang buruk menjadi baik, tapi membuat data yang baik menjadi terpercaya dan dapat diaudit."
 ```
@@ -138,6 +138,5 @@ ZFIC mengadopsi dekomposisi gelembung harga (P-Q bubble) dari paper:
 Jarrow, R. A., & Kwok, S. S. (2026). *P-Bubbles, Q-Bubbles, and Risk Premia*. arXiv:2608.01554v1.
 
 Kami berterima kasih kepada para peneliti atas fondasi teoretis yang memungkinkan pengembangan ZFIC sebagai alat anti-korupsi.
-
 
 
