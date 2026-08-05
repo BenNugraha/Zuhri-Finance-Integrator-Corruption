@@ -1,6 +1,6 @@
 # 🌊 ZFIC — Zuhri Financial Integrity Corruption
 
-**ZFIC** adalah toolkit analitis untuk deteksi anomali harga, skoring risiko entitas (ARS), agregasi indikator sosial-ekonomi (NSV), indeks integritas gabungan (FII), dan audit log tamper-evident. Dibangun dengan presisi 61 digit sebagai jangkar deterministik.
+**ZFIC** adalah toolkit analitis untuk deteksi anomali harga, skoring risiko entitas (ARS), agregasi indikator sosial-ekonomi (NSV), indeks integritas gabungan (FII), dan audit log tamper-evident. Dibangun dengan Konstanta phi Zuhri Formalism untuk menjaga nilai output deterministik
 
 > "Memberantas korupsi melalui analisis berbasis bukti, bukan opini."
 
