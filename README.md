@@ -129,7 +129,7 @@ Supported by : Babeh Lutfi Jagur sanFK Jatiwaringin
 
 ```
 ---
-Mandat: URIP IKU KUDU URUP | Basmi Korupsi | Jaga Alam Semesta
+URIP IKU KUDU URUP | Basmi Korupsi | Jaga Alam Semesta
 
 ## 📚 Acknowledgments
 
