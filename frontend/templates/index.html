@@ -263,6 +263,23 @@
       100% { opacity: 0.3; transform: scale(0.8); }
     }
 
+    /* FOOTER COPYRIGHT */
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #2d8b8b44;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #5a8a8a;
+    }
+    .footer a {
+      color: #a8dadc;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
     @media (max-width: 600px) {
       body { padding: 16px; }
       .card { padding: 18px; }
@@ -385,6 +402,22 @@
     </div>
   </div>
 
+  <!-- ===== FOOTER: COPYRIGHT & DESIGN ===== -->
+  <footer class="footer">
+    <p>
+      Copyright &copy; 2026 
+      <span style="color: #a8dadc; font-weight: 600;">Benny Nugraha, A.md</span>
+      <span style="color: #3a6a6a; margin: 0 6px;">·</span>
+      <span style="color: #5a8a8a;">Design by</span>
+      <span style="color: #a8dadc; font-weight: 600;">Benny Nugraha</span>
+      <span style="color: #3a6a6a; margin: 0 6px;">·</span>
+      <span style="color: #5a8a8a;">All rights reserved.</span>
+    </p>
+    <p style="font-size: 0.7rem; color: #4a6a6a; margin-top: 4px;">
+      URIP IKU KUDU URUP — Basmi Korupsi, Jaga Alam, Bangun Nusantara
+    </p>
+  </footer>
+
 </div>
 
 <script>
@@ -393,7 +426,7 @@
       document.getElementById(id).textContent = text;
     }
 
-    // 1. HEALTH CHECK (Tanpa emoji centang ganda, menggunakan titik LED)
+    // 1. HEALTH CHECK
     fetch('/health')
       .then(r => r.json())
       .then(d => setText('health-status', `${d.status} (${d.service})`))
