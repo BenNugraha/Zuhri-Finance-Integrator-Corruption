@@ -31,6 +31,45 @@
 
 ---
 
+## 📊 Gallery — Visualisasi Analisis ZFIC
+
+Berikut adalah hasil visualisasi dari berbagai simulasi dan analisis yang dilakukan menggunakan ZFIC:
+
+<details>
+<summary>🔄 Klik untuk melihat Gallery Visualisasi</summary>
+
+### 1. Bubble Detection Simulation
+![Bubble Detection](docs/bubble_detection_simulation.png)
+*Deteksi gelembung harga menggunakan dekomposisi P-Q dan regret-covariance drift.*
+
+### 2. ARS Firth Simulation
+![ARS Firth](docs/ars_firth_simulation.png)
+*Hasil Firth logistic regression untuk rare-event bias correction pada data insiden korupsi.*
+
+### 3. Floating Point Manipulation
+![Floating Point](docs/floating_point_manipulation_simulation.png)
+*Simulasi stabilitas presisi 61 digit dalam perhitungan numerik.*
+
+### 4. NSV Simulation
+![NSV Simulation](docs/nsv_simulation_chart.png)
+*Net Societal Value (NSV) — mengukur dampak positif dan negatif dari kebijakan/entitas.*
+
+### 5. KPK National Trend (2004-2025)
+![KPK Trend](docs/kpk_national_trend_2004_2025_analysis.png)
+*Analisis tren kasus korupsi di Indonesia berdasarkan data KPK.*
+
+### 6. ZFIC Feature Comparison
+![Feature Comparison](docs/zfic_feature_comparison.png)
+*Perbandingan kontribusi setiap fitur terhadap Financial Integrity Index (FII).*
+
+### 7. ZFIC Template Pipeline
+![Pipeline Simulation](docs/zfic_template_pipeline_simulation.png)
+*Alur pipeline ZFIC dari input data hingga output audit log.*
+
+</details>
+
+---
+
 ## 🛠️ Teknologi
 
 - **Python 3.10+** dengan Flask, NumPy, Pandas, Scikit-learn
